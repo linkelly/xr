@@ -36,7 +36,7 @@ export default class Controllers
             new THREE.MeshBasicMaterial({ color: 0xff0000 })
         )
 
-        this.mesh.position.x = this.ontroller1.position.x + 1; //placing the cube next to the controller
+        this.mesh.position.x = this.controller1.position.x + 1; //placing the cube next to the controller
 
         this.scene.add(this.mesh) //test adding a cube
         this.scene.add( this.controller1 );
